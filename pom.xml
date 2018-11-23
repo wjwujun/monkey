@@ -7,6 +7,10 @@
     <groupId>com.monkey</groupId>
     <artifactId>monkey</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>common</module>
+        <module>base</module>
+    </modules>
     <packaging>pom</packaging>
 
     <name>monkey_parent</name>
