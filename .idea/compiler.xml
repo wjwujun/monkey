@@ -10,5 +10,10 @@
         <module name="common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="monkey" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

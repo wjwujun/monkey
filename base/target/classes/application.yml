@@ -4,8 +4,7 @@ spring:
   application:
     name: base
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql//47.98.136.216:3306/monkey?characterEncoding=utf-8
+    url: jdbc:mysql://47.98.136.216:3306/monkey?characterEncoding=utf8&useSSL=true
     username: root
     password: wj@110120
   jpa:
